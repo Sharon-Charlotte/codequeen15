@@ -1,6 +1,7 @@
-/* *{
-    background-color: aqua;
-} */
+*{
+    margin:0;
+    padding:0;
+}
 h2{
     color: cornflowerblue;
 
@@ -16,4 +17,27 @@ img{
 }
 .Days{
     background-color: chartreuse;
+}
+#sample{
+    background-color: chocolate;
+
+    border: 2px,darkcyan,dashed;
+}
+.first{
+    border-style: dotted;
+    margin: 10px 15px;
+    padding: 30px;
+}
+
+/* my flexbox properties */
+.Container{
+    background-color: aqua;
+}
+.childContainer{
+    background-color: rgb(255, 0, 212);
+    display: flex;
+    /* flex-direction: row; */
+    /* gap: 10px; */
+    justify-content: space-between;
+    
 }
